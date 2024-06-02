@@ -1,5 +1,43 @@
-/* src/components/Contact.css */
+/* src/style/Contact.css */
 .contact {
     padding: 2rem;
-    background-color: #c5c5c5;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 1rem;
+    color: #fff; /* White text color */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    margin-bottom: 0.5rem;
+    color: #fff; /* White text color */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 0.5rem 1rem;
+    background-color: #4e54c8; /* Blue button color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #8f94fb; /* Lighter blue on hover */
 }

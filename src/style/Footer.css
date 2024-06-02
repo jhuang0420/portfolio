@@ -1,0 +1,32 @@
+/* src/style/Footer.css */
+.footer {
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    color: white; /* White color for icon */
+    margin-right: 3.0rem; /* Add spacing between icons */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.social-icons a:hover {
+    color: #ddd; /* Lighter color on hover */
+}
+
+.copyright {
+    font-size: 12px;
+}

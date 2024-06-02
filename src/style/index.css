@@ -1,0 +1,38 @@
+/* public/index.css */
+body {
+    margin: 0;
+    font-family: 'Abril Fatface', cursive;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #1f1f1f; /* Dark background color */
+    color: #ddd; /* Light text color */
+    letter-spacing: 1px; /* Adjust the spacing as needed */
+}
+
+.navbar {
+    background-color: #28104e;
+}
+
+.navbar-right a {
+    color: #eee; /* Light text color for navbar links */
+}
+
+.about {
+    background: linear-gradient(to bottom, #28104e, #1f1f1f); /* Gradient from dark purple to black */
+}
+
+.projects {
+    background: linear-gradient(to bottom, #1f1f1f, #6237a0); /* Gradient from dark purple to black */
+}
+
+.skills {
+    background: linear-gradient(to bottom, #6237a0, #28104e);
+}
+
+.contact {
+    background-color: #363636; /* Dark background color for contact section */
+}
+
+.footer {
+    background: gradient(#1f1f1f); /* Gradient from dark purple to black */
+}

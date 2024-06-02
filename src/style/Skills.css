@@ -1,0 +1,26 @@
+/* src/style/Skills.css */
+.skills {
+    padding: 2rem;
+    text-align: center;
+}
+
+.skills h2 {
+    margin-bottom: 1rem;
+    color: #fff; /* White text color */
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+
+.skills-list li {
+    color: #fff; /* White text color */
+    margin: 0.5rem; /* Add spacing around list items */
+    flex: 0 0 calc(25% - 1rem); /* Set the width of each item to 25% */
+    max-width: calc(25% - 1rem); /* Ensure each item has a maximum width of 25% */
+    text-align: center;
+}
