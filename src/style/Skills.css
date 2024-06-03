@@ -4,9 +4,19 @@
     text-align: center;
 }
 
-.skills h2 {
-    margin-bottom: 1rem;
+.skills-header {
+    display: flex;
+}
+
+.skills-header h2 {
+    flex: 1;
+    margin: 1rem;
     color: #fff; /* White text color */
+}
+
+.skills-header a {
+    flex: 1;
+    margin: 1rem;
 }
 
 .skills-list {
@@ -19,9 +29,24 @@
 }
 
 .skills-list li {
-    color: #fff; /* White text color */
-    margin: 1rem; /* Add spacing around list items */
-    flex: 0 0 calc(25% - 1rem); /* Set the width of each item to 25% minus margin */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    color: #fff; 
+    margin: 1rem; 
+    flex: 0 0 calc(25% - 1rem); 
+    box-sizing: border-box; 
     text-align: center;
 }
+
+.resume-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.resume-link i {
+    margin-right: 0.5em;
+    align-items: center;
+}
+

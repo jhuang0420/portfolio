@@ -3,35 +3,41 @@
     padding: 5rem;
     display: flex;
     align-items: center;
-    flex-wrap: wrap; 
-    height: 600px;
+    flex-wrap: wrap;
+    height: auto; /* Changed from fixed height to auto */
 }
 
 .about-text {
-    flex: 1; /* Take up all available space */
+    flex: 1; /* Ensures it takes up full width on wrap */
     color: #ffffff;
-    padding: 2rem; /* Reduce padding for smaller screens */
-    margin: 1rem; /* Add margin for spacing */
+    padding: 2rem;
+    margin: 1rem;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .about-text h2 {
-    font-size: 2.5rem;
+    font-size: auto;
     text-decoration-line: underline;
 }
 
+.about-text p {
+    line-height: 30px;
+    min-width: 300px;
+}
+
 .about-image {
-    flex: 1; /* Take up all available space */
+    flex: 1; /* Ensures it takes up full width on wrap */
     display: flex;
     justify-content: center;
-    margin: 1rem; /* Add margin for spacing */
+    margin: 1.5rem; /* Add margin for spacing */
 }
 
 .about-image img {
-    max-width: 70%; /* Make the image responsive */
-    max-height: 70%; /* Make the image responsive */
+    min-width: 300px;
+    max-width: 80%; /* Make the image responsive */
+    height: auto; /* Make the image responsive */
     border-radius: 50%; /* Ensure the image remains circular */
-    box-shadow: 0 0 360px rgba(255, 255, 255, 0.5); 
+    box-shadow: 0 0 360px rgb(255, 255, 255);
 }
 
 @media (max-width: 768px) {
@@ -43,4 +49,11 @@
     .about-image {
         margin-top: 2rem; /* Add more margin between text and image */
     }
+}
+
+/* Ensure next section has clear separation */
+.next-section {
+    margin-top: 2rem; /* Add top margin to ensure no overlap */
+    padding: 2rem;
+    background-color: #f0f0f0; /* Example background color */
 }

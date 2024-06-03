@@ -6,6 +6,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background: linear-gradient(#355C7D,#6C5B7B,#C06C84);
     letter-spacing: 2px; 
+    min-width: 750px;
 }
 
 .navbar {
@@ -23,17 +24,21 @@ body {
 }
 
 .about {
-    padding-top: 100px;
+    margin-top: 60px;
 }
 
 .projects {
-    padding-top: 80px; 
+    margin-top: 80px; 
 }
 
 .skills {
-    padding-top: 80px; 
+    margin-top: 80px; 
 }
 
 .contact {
-    padding-top: 80px; 
+    margin-top: 80px; 
+}
+
+.footer {
+    margin-top: 80px;
 }

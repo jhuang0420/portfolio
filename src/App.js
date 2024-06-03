@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import './style/App.css';
 
+
 function App() {
     return (
         <div className="App">
