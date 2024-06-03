@@ -1,4 +1,39 @@
-/* src/App.css */
-.App {
-    text-align: center;
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(#355C7D,#6C5B7B,#C06C84);
+    letter-spacing: 2px; 
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: calc(100% - 65px);
+    padding-left: 50px;
+    padding-right: 50px;
+    z-index: 1000;
+}
+
+
+.navbar-right a {
+    color: #eee; 
+}
+
+.about {
+    padding-top: 100px;
+}
+
+.projects {
+    padding-top: 80px; 
+}
+
+.skills {
+    padding-top: 80px; 
+}
+
+.contact {
+    padding-top: 80px; 
 }

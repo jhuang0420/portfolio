@@ -2,9 +2,14 @@
 .navbar {    
     display: flex;
     justify-content: space-between;
+    height: 25px;
     align-items: center;
     padding: 1rem;
-    color: white;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white background */
+    backdrop-filter: blur(10px); /* Apply a blur effect to elements behind the navbar */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  
   }
   
   .navbar-left .logo {
@@ -19,14 +24,13 @@
   }
   
   .navbar-right a {
-    color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
     transition: background-color 0.3s;
   }
   
   .navbar-right a:hover {
-    background-color: #555;
+    background-color: #836c6c5a;
     border-radius: 5px;
   }
   

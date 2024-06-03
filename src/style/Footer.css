@@ -3,18 +3,23 @@
     bottom: 0;
     left: 0;
     padding: 1rem;
-    background-color: #333; /* Dark background color */
+    padding-left: 2rem;
+    padding-right: 2rem;
     color: white; /* White text color */
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
     font-weight: 300;
+    height: 25px;
+    
 }
 
 .social-icons {
     display: flex;
     align-items: center;
+    padding: 1rem;
 }
 
 .social-icons a {

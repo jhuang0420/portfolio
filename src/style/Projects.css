@@ -21,7 +21,7 @@
     transition: filter 0.5s;
   }
   
-  .project-card:hover .project-image {
+  .project-image:hover {
     filter: blur(2px);
   }
   
@@ -34,7 +34,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     opacity: 0;
     transition: opacity 0.3s;
@@ -51,6 +50,7 @@
   
   .project-title {
     margin-top: 1rem;
+    color: #ffffff;
     font-weight: bold;
   }
   
