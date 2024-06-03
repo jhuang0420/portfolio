@@ -8,6 +8,7 @@
     background-color: rgba(255, 255, 255, 0.1); /* Transparent white background */
     backdrop-filter: blur(12px); /* Apply a blur effect to elements behind the navbar */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    min-width: 700px;
   
   }
   
