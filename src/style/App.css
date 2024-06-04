@@ -6,7 +6,6 @@ body {
     background: linear-gradient(#355C7D, #6C5B7B, #C06C84);
     letter-spacing: 2px;
     min-width: 1000px;
-    max-width: 1200px;
     max-height: fit-content;
 
 }
