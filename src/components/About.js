@@ -1,7 +1,7 @@
 // src/components/About.js
 import React from 'react';
 import '../style/About.css';
-import logo from '../assests/logo.png';
+import logo from '../assets/logo.png';
 
 function About() {
     return (

@@ -1,7 +1,7 @@
 // src/components/Projects.js
 import React from 'react';
 import '../style/Projects.css';
-import project1Image from '../assests/p1.jpg';
+import project1Image from '../assets/p1.jpg';
 
 function Projects() {
     return (

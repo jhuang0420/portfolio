@@ -1,7 +1,7 @@
 // src/components/Navbar.js
 import React from 'react';
 import '../style/Navbar.css';
-import logo from '../assests/logo.png'; 
+import logo from '../assets/logo.png'; 
 
 function Navbar() {
   return (
