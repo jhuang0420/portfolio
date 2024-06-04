@@ -1,12 +1,14 @@
-
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: linear-gradient(#355C7D,#6C5B7B,#C06C84);
-    letter-spacing: 2px; 
-    min-width: 750px;
+    background: linear-gradient(#355C7D, #6C5B7B, #C06C84);
+    letter-spacing: 2px;
+    min-width: 1000px;
+    max-width: 1200px;
+    max-height: fit-content;
+
 }
 
 .navbar {
@@ -20,25 +22,26 @@ body {
 
 
 .navbar-right a {
-    color: #eee; 
+    color: #eee;
 }
 
 .about {
-    margin-top: 60px;
+    padding-top: 100px;
 }
 
 .projects {
-    margin-top: 80px; 
+    padding-top: 100px;
 }
 
 .skills {
-    margin-top: 80px; 
+    padding-top: 100px;
 }
 
 .contact {
-    margin-top: 80px; 
+    margin-top: 80px;
 }
 
 .footer {
+    bottom: 0;
     margin-top: 80px;
 }
