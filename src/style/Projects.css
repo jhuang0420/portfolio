@@ -10,8 +10,11 @@
 
 .project-card {
     width: 80%;
-    height: 300px;
-    margin: 3rem;
+    height: 400px;
+    margin-top: 3rem;
+    
+    padding-left: 4rem;
+    padding-right: 4rem;
     align-items: center;
     display: flex;
     flex-direction: row; /* Ensure this is set to row */
@@ -21,27 +24,29 @@
 
 .img {
     flex: 1;
-    min-width: 300px;
-    min-height: 300px;
-    margin: 1rem;
-    align-items: center;
+    display: flex;
     justify-content: center;
-
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .txt {
     flex: 2;
-    margin: 4rem;
+    padding: 2rem;
     overflow: hidden;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .project-image {
-    width: 100%; 
-    height: 100%;
-    max-width: 350px;
-    max-height: 350px;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
     transition: filter 0.3s;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
 .project-image:hover {
@@ -67,6 +72,8 @@
 }
 
 .project-info {
+    margin-left: 4rem;
+    margin-right: 4rem;
     text-align: center;
     color: white;
 }
@@ -75,10 +82,19 @@
     margin-top: 1rem;
     color: #ffffff;
     font-weight: bold;
+    font-size: 30px;
 }
 
 .project-description {
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
     color: #ddd;
-    overflow: hidden;
+    overflow: auto;
+    line-height: 30px;
+}
+
+.project-technologies {
+    margin-top: 1.5rem;
+    color: #ddd;
+    overflow: visible;
+    font-style: italic;
 }
