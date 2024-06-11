@@ -1,4 +1,4 @@
-body {
+body,html {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -7,7 +7,7 @@ body {
     letter-spacing: 2px;
     min-width: 1000px;
     max-height: fit-content;
-
+    scroll-behavior: smooth;
 }
 
 .navbar {
