@@ -10,7 +10,7 @@
 
 .about-text {
     flex: 1; 
-    color: #ffffff;
+    color: black;
     padding: 2rem;
     margin: 1rem;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);

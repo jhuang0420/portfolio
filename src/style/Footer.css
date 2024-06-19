@@ -1,12 +1,10 @@
 /* src/style/Footer.css */
 .footer {
-    bottom: 0;
-    left: 0;
     padding: 1.15rem;
     padding-left: 2rem;
     padding-right: 2rem;
     color: white;
-    background-color: black;
+    background-color: royalblue;
     display: flex;
     justify-content: space-between;
     align-items: center;

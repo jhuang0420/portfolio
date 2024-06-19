@@ -3,17 +3,26 @@ body,html {
     font-family: 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: linear-gradient(#355C7D, #6C5B7B, #C06C84);
+    background: white;
     letter-spacing: 2px;
-    min-width: 1000px;
     max-height: fit-content;
+    max-width: fit-content;
     scroll-behavior: smooth;
+    
+}
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .navbar {
     position: fixed;
     top: 0;
-    width: calc(100% - 65px);
+    width: calc(100% - 62px);
+    min-width: 750px;
     padding-left: 50px;
     padding-right: 50px;
     z-index: 1000;
@@ -36,11 +45,10 @@ body,html {
     padding-top: 100px;
 }
 
-.contact {
-    margin-top: 80px;
-}
-
 .footer {
+    margin-top: 100px;
     bottom: 0;
-    margin-top: 80px;
+    position: relative;
+    min-width: 750px;
+    width: calc(100% - 62px);
 }

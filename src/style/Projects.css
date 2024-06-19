@@ -79,21 +79,22 @@
 
 .project-title {
     margin-top: 1rem;
-    color: #ffffff;
+    color: black;
     font-weight: bold;
     font-size: 30px;
+    text-decoration: underline;
 }
 
 .project-description {
     margin-top: 1.5rem;
-    color: #ddd;
+    color: black;
     overflow: auto;
     line-height: 30px;
 }
 
 .project-technologies {
     margin-top: 1.5rem;
-    color: #ddd;
+    color: black;
     overflow: visible;
     font-style: italic;
 }
