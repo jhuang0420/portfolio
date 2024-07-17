@@ -1,58 +1,44 @@
 /* src/components/About.css */
 .about {
     padding: 5rem;
-    padding-bottom: 2rem;
     display: flex;
+    flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     height: auto; 
 }
 
 .about-text {
-    flex: 1; 
+    flex: 1.5;
     color: black;
     padding: 2rem;
     margin: 1rem;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    font-size: 17px;
+    height: fit-content;
+    line-height: 30px;
 }
 
 .about-text h2 {
-    font-size: 30px;
     text-decoration-line: underline;
 }
 
-.about-text p {
-    line-height: 30px;
-    min-width: 300px;
-}
 
 .about-image {
-    flex: 1; 
+    flex: 1;
     display: flex;
     justify-content: center;
-    margin: 1.5rem; 
 }
 
 .about-image img {
-    min-width: 300px;
-    max-width: 80%; 
-    height: auto; 
-    border-radius: 50%; 
+    height: 400px;
     box-shadow: 0 0 360px rgb(255, 255, 255);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
     .about-text {
         padding: 1rem; 
     }
-
     .about-image {
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
-}
-
-.next-section {
-    margin-top: 2rem; 
-    padding: 2rem;
-    background-color: #f0f0f0; 
 }

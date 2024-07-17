@@ -4,9 +4,13 @@
     justify-content: space-between;
     height: 25px;
     align-items: center;
-    padding: 1rem;
-    background-color: royalblue; /* Transparent white background */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */  
+    width: 100%;
+    margin: 0;
+    padding: 1.15rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: royalblue; 
+    font-size: 15px;
   }
   
   .navbar-left {

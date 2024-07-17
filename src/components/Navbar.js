@@ -4,7 +4,7 @@ import '../style/Navbar.css';
 
 function Navbar() {
   return (
-    <nav className="navbar">
+    <div className="navbar">
       <div className="navbar-left">
         <h>Jeffrey Huang</h>
       </div>
@@ -18,7 +18,7 @@ function Navbar() {
                     <i className="fas fa-file"></i> Resume
                 </a>
       </div>
-    </nav>
+    </div>
   );
 }
 
