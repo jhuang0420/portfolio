@@ -14,7 +14,9 @@
 
 .navbar {
     top: 0;
+    z-index: 1000;
     width: calc(100% - 64px);
+    position: absolute;
 }
 
 .navbar-right a {
@@ -23,7 +25,7 @@
 }
 
 .about {
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .projects {
