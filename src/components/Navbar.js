@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-left">
-        <h>Jeffrey Huang</h>
+        <h>Portfolio</h>
       </div>
       <div className="navbar-right">
         <a href="#about">About Me</a>

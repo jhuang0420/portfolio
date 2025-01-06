@@ -19,7 +19,7 @@ function Footer() {
                     <FontAwesomeIcon icon={faInstagram} size="2x" />
                 </a>
             </div>
-            <p>&copy; 2024 Jeffrey Huang. All rights reserved.</p>
+            <p>&copy; 2025 Jeffrey Huang. All rights reserved.</p>
         </section>
     );
 }
