@@ -1,10 +1,11 @@
 // src/components/Projects.js
 import React from 'react';
 import '../style/Projects.css';
-import projectImage from '../assets/p1.jpg';
+// import projectImage from '../assets/p1.jpg';
 import project1Image from '../assets/webdev.png';
 import project2Image from '../assets/alpaca.png';
 import project3Image from '../assets/hand.jpg';
+import project4Image from '../assets/insurance.png';
 
 function Projects() {
     return (
@@ -60,6 +61,25 @@ function Projects() {
                     <div className="project-technologies">
                         Machine-Learning | Python | TensorFlow | Keras | Computer Vision
                     </div>
+                </div>
+            </div>
+
+            <div className="project-card">
+                <div className="txt">
+                    <div className="project-title">Insurance Premium Predictor</div>
+                    <div className="project-description">
+                        Kaggle competition to build and train regression model(s) to predict insurance premiums. 
+                        Performed EDA and data preprocessing on dataset. Experimented with data transformations, various imputation techniques, etc.  
+                        Created an ensemble of models for final prediction. Placed top 20% of submissions. 
+                    </div>
+                    <div className="project-technologies">
+                        Machine-Learning | EDA | Scikit-learn | Data preprocessing
+                    </div>
+                </div>
+                <div className="img">
+                    <a href="https://github.com/jhuang0420/Kaggle_Insurance_Premium" target="_blank" rel="noopener noreferrer">
+                        <img src={project4Image} alt="Project 4" className="project-image" />
+                    </a>
                 </div>
             </div>
 
